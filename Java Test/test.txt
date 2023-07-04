@@ -1,0 +1,60 @@
+1. datatype variavble = value;
+2. No
+3. No
+4. No
+5. The String args[] is the main method in the java program allows you to pass command line arguments to the program when it is executed. 
+6. Yes
+7. Yes
+8. No
+9. int array =  {'Values'}
+	int array= {10,20,30,40,50}
+10. Error
+11. The Java compiler takes Java code and compiles to Java Byte code which is a cross-platform format. When we run Javaapplications, Java Virtual Machine (JVM) gets loaded in the memory. It takes our bytecode as the input and translatesit to thenative code for the underlying operating system. There are variousimplementations of Java Virtual Machine for almost all operating systems
+12. Java: Java is a object oriented programing language.
+    Javac : Javac ia a compiler which is used to compile the java program.
+13. Class loader is the part of the java runtime that is responsible for dynamically loading Java classes into the JVM at runtime.
+14. 
+15. Java is not considered as a pure obejct orineted programming language becuse the few characteristics of the java 
+16. We need JDK (Java Development Kit) to run the java programs. 
+    We need JRE (Java Runtime Error) to run the java program. Without JDK we can also run the java programs.
+    We need JVM (Java Virtual Machine) which is a component of java platform which acts as java runtime environment for executing java bytecodes.
+17. Main method is the special method called by JVM.
+18. Yes
+19. Yes
+20. No change
+21. JVM(Java Virtual Machine) it is a component of java platform which acts as java runtime environment for executing java bytecode.
+23. There are 2 main types of class members
+    1. Instance variables are variables that hold data specific to each instance of a class.
+    2. Methods: Methods are functions defined within a class that performs certain operations.
+24. Formal arguments:
+    Actual arguments:
+25. A variable is a location in memory to hold data.
+26. Varibales are stored in computer memory during programs execution.
+27. Varibale initialization refers to the process of giving an initial value to a variable when it is declared.
+    Variable assignment occurs when a value is assigned or reassigned to an already declared variable at same point.
+28. Memory allocation declare a variable in java the compiler needs to allocate based on its data type.
+29. Local variable, Instance variable.
+30. JVM converts byte code into mchine language.
+31. 
+32. Write Once Read Anywhere.java --version
+33. java --version
+34. java SE 17
+35. Class is a is blueprint/design to create an object.
+36. class Name{
+      //statement
+    }
+37. class Human{
+    	String Name;
+	int Age;
+	String gender
+        Human(String name, int age, String gender){
+    }
+}
+    class HumanRunner{
+    public 
+    system.out.println(Human Details
+    Human refer = new Human()
+    Human();
+    }
+38. syntax to create an ob
+39. Constructor is specisl member function that is used to initialize objects of a class.
