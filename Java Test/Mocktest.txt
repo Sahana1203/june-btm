@@ -1,0 +1,120 @@
+1. Maternal Uncle
+2. Grandfather
+3. Cousin
+4. Father
+5. Son-in-law
+6. X*A+Y
+7. R
+8. Brother
+9. Father
+10. S	
+11. 10
+12. West
+13. South-east
+14. West
+
+
+1. True  
+2. 10, 110
+3. True
+4. Static modifier on the main method enables it to directly accessible and executable without needing an instance of the class and makes it suitable as the starting point for program execution.
+5. public class ReverseArray {  
+    public static void main(String[] args) {  
+     
+        int [] arr = new int [] {10,45,7,9,2};  
+        System.out.println("Original array: ");  
+        for (int i = 0; i < arr.length; i++) {  
+            System.out.print(arr[i] + " ");  
+        }  
+        System.out.println();  
+        System.out.println("Array in reverse order: ");  
+       
+        for (int i = arr.length-1; i >= 0; i--) {  
+            System.out.print(arr[i] + " ");  
+        }  
+    }
+6. public class ArrayDescending {
+    public static void main(String[] args) {
+        int[] array = {2, 5, 4, 8, 2, 3, 6, 2};
+        Arrays.sort(array);
+        int[] result = removeDuplicates(array);
+        System.out.println("Sorted Array (Descending Order) without Duplicates: " + Arrays.toString(result));
+    }
+    public static int[] removeDuplicates(int[] arr) {
+        int length = arr.length;
+        int count = 0; 
+        for (int i = 0; i < length - 1; i++) {
+            if (arr[i] != arr[i + 1]) {
+                count++;
+            }
+        }
+        count++;
+        int[] result = new int[count];
+        result[0] = arr[0];
+        int index = 1;
+        for (int i = 1; i < length; i++) {
+            if (arr[i] != arr[i - 1]) {
+                result[index] = arr[i];
+                index++;
+            }
+        }
+        return Arrays.copyOf(result, count);
+    }
+}
+
+7. Done
+8. this: this is a reference to the current object within a non-static method or constructor
+   this(): It is used to invoke another constructor of the same class from within a constructor
+9. public class SwapNumbers {
+   	public static void main(String[] args) {
+        	int num1 = 07;
+        	int num2 = 13;
+        	System.out.println("Before swapping:");
+        	System.out.println("num1 = " + num1);
+        	System.out.println("num2 = " + num2);
+        	num1 = num1 + num2;
+        	num2 = num1 - num2;
+        	num1 = num1 - num2;
+        	System.out.println("After swapping:");
+        	System.out.println("num1 = " + num1);
+        	System.out.println("num2 = " + num2);
+    }
+}
+10.(1) public class PatternPrint {
+    public static void main(String[] args) {
+        System.out.println("&               &");
+        System.out.println("          &");
+        System.out.println("&               &");
+    }
+}
+
+   (2) public class PatternPrint {
+    public static void main(String[] args) {
+        printPattern();
+    }
+    
+    public static void printPattern() {
+        System.out.println("%      %    %");
+        System.out.println("%      &      %");
+        System.out.println("%      %      %");
+    }
+}
+   
+    (3) public class PatternPrint {
+    public static void main(String[] args) {
+        printPattern();
+    }
+    
+    public static void printPattern() {
+        System.out.println("%      %    %");
+        System.out.println("%            %");
+        System.out.println("%      %      %");
+    }
+}
+
+
+
+
+
+
+
